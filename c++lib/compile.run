@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gcc -fPIC -o libfunc.o -c func.c
+gcc -shared -o libfunc.so libfunc.o

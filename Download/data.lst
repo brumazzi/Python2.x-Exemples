@@ -1,0 +1,9 @@
+300: ftp://mirror.csclub.uwaterloo.ca/x.org/X11R7.7/src/data/
+200: filename content-length last-modified file-type
+201: "CHECKSUMS" 1644 Sun%2C%2006%20Jun%202012%2000%3A00%3A00 FILE 
+201: "xbitmaps-1.1.1.tar.bz2" 47 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "xbitmaps-1.1.1.tar.gz" 46 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "xcursor-themes-1.0.3.tar.bz2" 53 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "xcursor-themes-1.0.3.tar.gz" 52 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "xkeyboard-config-2.6.tar.bz2" 70 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "xkeyboard-config-2.6.tar.gz" 69 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 

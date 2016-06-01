@@ -1,0 +1,23 @@
+# Blender MTL File: 'caixa.blend'
+# Material Count: 2
+newmtl Material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.121303 0.640000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+
+newmtl Material.001_Metal02.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.015654 0.031184 0.043973
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /home/Brumazzi/Projetos/Blender/Texturas/Metal02.png
+
+

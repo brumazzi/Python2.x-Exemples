@@ -1,0 +1,8 @@
+300: ftp://mirror.csclub.uwaterloo.ca/x.org/X11R7.7/src/util/
+200: filename content-length last-modified file-type
+201: "CHECKSUMS" 1064 Sun%2C%2006%20Jun%202012%2000%3A00%3A00 FILE 
+201: "makedepend-1.0.4.tar.bz2" 49 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "makedepend-1.0.4.tar.gz" 48 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "util-macros-1.17.tar.bz2" 49 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+201: "util-macros-1.17.tar.gz" 48 Sun%2C%2019%20Dec%202013%2000%3A00%3A00 SYMBOLIC-LINK 
+

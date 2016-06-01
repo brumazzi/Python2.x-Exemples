@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+
+import os;
+import sys;
+from sys import argv;
+from os import system, path;
+
+trash = path.expanduser("~/.trash/");
+#trash = path.expanduser("~/.local/share/Trash/files");
+#trash_info = path.expanduser("~/.local/share/Trash/info");
+
+if not os.path.isdir(trash):
+#	trash = path.expanduser("~/.trash/");
+#	if not os.path.isdir(trash):
+	os.mkdir(trash);
+
+argv[0] = ""
+
+for i in argv:
+	if i == "-l" or i == "--list":
+		command = "ls -a %s" %(trash);
+		os.system(command);
+		break;
+	elif i == "-r" or i == "--remove":
+		for j in range(2,len(argv)):		
+			command = "rm -R -f %s" %(argv[j]);
+			os.system(command);
+		break;
+	elif i == "-c" or i == "--clear":
+		command = "rm -R -f %s" %(trash);
+		os.system(command);
+		break;
+	elif os.path.isdir(i) or os.path.isfile(i):
+		command = "mv '%s' %s" %(i,trash);
+		os.system(command);

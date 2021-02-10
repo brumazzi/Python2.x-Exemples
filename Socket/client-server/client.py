@@ -2,7 +2,6 @@
 # *-* coding: utf-8 *-*
 
 import socket
-import sys
 
 # Configurando socket
 s = socket.socket();

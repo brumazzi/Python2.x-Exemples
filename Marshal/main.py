@@ -3,7 +3,7 @@
 
 import marshal as ms
 
-lista = [1,2,3,'texto']
+lista = [1,8,3,'texto']
 
 msg = ms.dumps(lista)
 print msg

@@ -20,9 +20,10 @@ ltex = library.texto
 if __name__ == "__main__":
     print ("O código da ", lsum(5,15))
     print ("")
-    x = ctypes.c_wchar_p("Brumazzi")
+    #x = ctypes.c_wchar_p("Brumazzi")
 
     res = ltex(b"Brumazzi")
     print ("------")
-    print(res)
-    print (ctypes.c_char_p(res).value)
+    #print(res)
+    print(dir(ctypes.c_wchar_p(res)))
+    print (ctypes.c_wchar_p(res).value)

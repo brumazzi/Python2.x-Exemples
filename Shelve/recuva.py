@@ -3,13 +3,13 @@
 
 import shelve as sl
 
-class obj():
-	def __init__(self):
-		self.x=0;
-
-def printer():
-	print "";
+class obj:
+    def __init__(self):
+        pass
 
 data = sl.open('data.txt')
 
-print data;
+def printer():
+    print "text"
+
+print(data['object'])

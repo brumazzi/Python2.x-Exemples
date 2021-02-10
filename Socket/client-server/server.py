@@ -2,13 +2,11 @@
 #*-* coding:utf-8 *-*
 
 import socket
-import sys
 
 END_SERVER = False
-F = None
 
 # configurando Socket
-s = socket.socket();
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
 host = "127.0.0.1"; #socket.gethostname();
 port = 5566;
 
